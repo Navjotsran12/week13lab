@@ -1,0 +1,57 @@
+body
+{
+    background-color: black;
+}
+
+.d1
+{
+    background-color: white;
+    height:300px;
+    width:49%;
+    font-size:20px;
+    display:inline-block;
+}
+
+.d2
+{
+    background-color: white;
+    height: 300px;
+    width:49%;
+    font-size:20px;
+    display:inline-block;
+}
+
+
+
+@media only screen and (min-width:768px)  and (max-width:1199px) 
+{
+    .d1  {
+        width: 100%;
+        font-size:16px;
+        display:inline-block;
+
+    }
+
+    .d2{
+        width: 100%;
+        font-size:16px;
+        display:inline-block;
+
+    }
+   
+} 
+
+@media only screen and (max-width:767px) and (min-width:350px)
+{
+    .d1{
+        width:100%;
+        font-size:16px;
+        background-color: blue;
+     }
+
+    .d2{
+        width:100%;
+        font-size:16px;
+        background-color: yellow;
+    }
+}
